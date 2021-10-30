@@ -231,8 +231,7 @@ header a {
 }
 
 .section5 div:nth-of-type(1) {
-    grid-column: 3/4;
-    margin-right: 5vw;
+    grid-column: 2/3;
 }
 
 .section5 div:nth-of-type(1) span img {
@@ -299,8 +298,134 @@ header a {
 
 .bild2 {
     grid-row: 2;
-    grid-column: 2/4;
+    grid-column: 2/3;
     width: 50%;
     margin: 0 0 0 15vw;
     padding-top: 10vh;
+}
+
+
+/*############Section5.3############*/
+
+.section5 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 100px 0 0 0;
+}
+
+.section5 div:nth-of-type(3) {
+    grid-column: 2/3;
+    padding-top: 10vh;
+}
+
+.section5 div:nth-of-type(3) span img {
+    width: 5%;
+}
+
+.section5 div:nth-of-type(3) h2:nth-of-type(1) {
+    color: #dddddd;
+    font-size: 3rem;
+}
+
+.section5 div:nth-of-type(3) h2 {
+    font-size: 1rem;
+    padding: 20px 0 25px 0;
+}
+
+.section5 div:nth-of-type(3) p {
+    width: 530px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.bild3 {
+    grid-row: 3;
+    grid-column: 1/2;
+    width: 50%;
+    margin: 0 0 0 15vw;
+    padding-top: 10vh;
+}
+
+
+/*############Section5.4############*/
+
+.section5 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    padding: 100px 0 0 0;
+}
+
+.section5 div:nth-of-type(4) {
+    grid-column: 1/2;
+    margin-left: 15vw;
+    padding-top: 10vh;
+}
+
+.section5 div:nth-of-type(4) span img {
+    width: 5%;
+}
+
+.section5 div:nth-of-type(4) h2:nth-of-type(1) {
+    color: #dddddd;
+    font-size: 3rem;
+}
+
+.section5 div:nth-of-type(4) h2 {
+    font-size: 1rem;
+    padding: 20px 0 25px 0;
+}
+
+.section5 div:nth-of-type(4) p {
+    width: 530px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.bild4 {
+    grid-row: 4;
+    grid-column: 2/3;
+    width: 55%;
+    margin: 0 0 0 15vw;
+    padding-top: 10vh;
+}
+
+
+/*############Section6############*/
+
+.section6 {
+    text-align: center;
+}
+
+.section6 h2 {
+    font-size: 4rem;
+    margin: 7vh 0 2vh 0;
+}
+
+.section6 p {
+    font-weight: 300;
+    margin: 0 0 3vh 0;
+}
+
+.section6 input {
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.subscribe {
+    background: #ff3571;
+    color: white;
+    padding: 10px 55px;
+    margin: 30px 0 0 0;
+    border-radius: 5px;
+}
+
+#thankYou {
+    display: none;
 }
